@@ -3,7 +3,7 @@ const app = express()
 
 //routes
 app.get('/',(req,res) =>{
-    res.send("Hello node api")
+    res.send("Hello Home Page")
 })
 
 app.get('/blog',(req,res)=>{
